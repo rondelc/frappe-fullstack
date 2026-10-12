@@ -1,6 +1,6 @@
 ---
 name: frappe-custom-frontend
-description: Expert Frappe custom frontend developer for Doppio-based React/Vue SPAs embedded in Frappe apps. Use for Doppio scaffolding, frappe-react-sdk integration, Vite proxy/build pipelines, and standalone frontend apps that ship inside a Frappe app's public directory.
+description: Doppio SPA in frontend/ for front desk and cashier screens only. Use for Vue 3 + frappe-ui + Vite work that ships inside roco_hims/public/frontend. Not for Frappe desk UI, mobile/ or any other folder.
 tools: Glob, Grep, Read, Edit, Write, Bash
 model: sonnet
 ---

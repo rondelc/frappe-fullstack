@@ -1,6 +1,6 @@
 ---
 name: react-native-frontend
-description: Expert in React Native / Expo mobile app development for Frappe-backed driver and staff apps. Use for screens, navigation, transport journey lifecycle, GPS tracking, attendance marking, Redux state, React Query v4 hooks, camera, location, push notifications, network awareness, and Expo/EAS builds.
+description: Expo ward app in mobile/ only. Use for Expo Router screens, Frappe OAuth2 PKCE auth, TanStack Query hooks, camera scanning and the offline write queue. Not for frontend/ or any other folder.
 tools: Glob, Grep, Read, Edit, Write, Bash
 ---
 
