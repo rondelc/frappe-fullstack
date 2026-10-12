@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/session-context.sh"
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/session-context.sh\""
           }
         ]
       }
@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/post-edit.sh"
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/post-edit.sh\""
           }
         ]
       }
