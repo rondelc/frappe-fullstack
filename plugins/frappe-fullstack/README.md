@@ -15,9 +15,15 @@ A comprehensive Claude Code plugin for Frappe Framework and ERPNext full-stack d
 
 ### From the marketplace
 
-```bash
-git clone https://github.com/UnityAppSuite/frappe-claude.git
-/plugin marketplace add ./frappe-claude
+```
+/plugin marketplace add rondelc/frappe-fullstack
+/plugin install frappe-fullstack@frappe-claude
+```
+
+Or from a local clone (`git clone https://github.com/rondelc/frappe-fullstack.git`):
+
+```
+/plugin marketplace add ./frappe-fullstack
 /plugin install frappe-fullstack@frappe-claude
 ```
 

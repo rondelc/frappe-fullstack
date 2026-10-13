@@ -2,6 +2,8 @@
 
 A Claude Code plugin marketplace for Frappe Framework and ERPNext development. This repository contains one or more plugins optimized for Frappe/ERPNext workflows.
 
+Fork of [UnityAppSuite/frappe-claude](https://github.com/UnityAppSuite/frappe-claude).
+
 ## Available Plugins
 
 | Plugin | Description |
@@ -10,14 +12,22 @@ A Claude Code plugin marketplace for Frappe Framework and ERPNext development. T
 
 ## Installation
 
-```bash
-# Clone this marketplace
-git clone https://github.com/UnityAppSuite/frappe-claude.git
-
+```
 # Add the marketplace (inside Claude Code)
-/plugin marketplace add ./frappe-claude
+/plugin marketplace add rondelc/frappe-fullstack
 
 # Install the plugin
+/plugin install frappe-fullstack@frappe-claude
+```
+
+To install from a local clone instead:
+
+```bash
+git clone https://github.com/rondelc/frappe-fullstack.git
+```
+
+```
+/plugin marketplace add ./frappe-fullstack
 /plugin install frappe-fullstack@frappe-claude
 ```
 
@@ -26,7 +36,7 @@ On first install you will be prompted for `bench_path`, `default_site`, and (opt
 ## Marketplace Structure
 
 ```
-frappe-claude/
+frappe-fullstack/
 ├── .claude-plugin/
 │   └── marketplace.json          # Marketplace manifest
 ├── plugins/
